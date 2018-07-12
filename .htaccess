@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^/?updateuser/([^/d]+)/?$ updateuser.php?id=$1 [L,QSA]
+RewriteRule ^/?deleteuser/([^/d]+)/?$ deleteuser.php?id=$1 [L,QSA]
+RewriteRule ^users users.php [L,QSA]
+RewriteRule ^adduser adduser.php [L,QSA]
